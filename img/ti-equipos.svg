@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" role="img" aria-labelledby="t">
+  <title id="t">Servidores, laptop, impresora y suministros de TI</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d2335"/><stop offset="1" stop-color="#123a52"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="440" rx="24" fill="url(#bg)"/>
+  <circle cx="470" cy="90" r="120" fill="#1fb5e0" opacity=".08"/>
+  <rect y="380" width="600" height="60" fill="#161a28" opacity=".55"/>
+
+  <!-- Rack de servidores -->
+  <g>
+    <rect x="48" y="60" width="170" height="324" rx="10" fill="#0f1320"/>
+    <rect x="58" y="70" width="150" height="304" rx="6" fill="#22283b"/>
+    <g id="u">
+      <rect x="66" y="80" width="134" height="40" rx="4" fill="#2e3550"/>
+      <g fill="#161a28"><rect x="76" y="92" width="6" height="16"/><rect x="86" y="92" width="6" height="16"/><rect x="96" y="92" width="6" height="16"/><rect x="106" y="92" width="6" height="16"/><rect x="116" y="92" width="6" height="16"/></g>
+      <circle cx="170" cy="100" r="4" fill="#6fd3a0"/><circle cx="184" cy="100" r="4" fill="#1fb5e0"/>
+    </g>
+    <use href="#u" y="48"/><use href="#u" y="96"/><use href="#u" y="144"/><use href="#u" y="192"/>
+    <g>
+      <rect x="66" y="320" width="134" height="40" rx="4" fill="#2e3550"/>
+      <g fill="#1fb5e0"><rect x="76" y="334" width="10" height="8" rx="1"/><rect x="90" y="334" width="10" height="8" rx="1"/><rect x="104" y="334" width="10" height="8" rx="1"/><rect x="118" y="334" width="10" height="8" rx="1"/><rect x="132" y="334" width="10" height="8" rx="1"/><rect x="146" y="334" width="10" height="8" rx="1"/></g>
+      <circle cx="184" cy="340" r="4" fill="#f5b400"/>
+    </g>
+  </g>
+
+  <!-- Nube -->
+  <g>
+    <path d="M290 112a34 34 0 0 1 64-14 26 26 0 0 1 36 24 22 22 0 0 1-4 44h-92a28 28 0 0 1-4-54z" fill="#1fb5e0"/>
+    <path d="M326 140l14-14 14 14M340 126v28" stroke="#161a28" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M250 150c-8 0-14 6-14 14v30" stroke="#1fb5e0" stroke-width="3" stroke-dasharray="5 6" fill="none"/>
+    <path d="M384 166c0 18 10 34 30 40" stroke="#1fb5e0" stroke-width="3" stroke-dasharray="5 6" fill="none"/>
+  </g>
+
+  <!-- Laptop con ERP -->
+  <g>
+    <rect x="252" y="196" width="196" height="128" rx="8" fill="#0f1320"/>
+    <rect x="262" y="206" width="176" height="108" rx="3" fill="#f4f7fb"/>
+    <rect x="262" y="206" width="38" height="108" fill="#161a28"/>
+    <g fill="#3b4364"><rect x="268" y="218" width="26" height="5" rx="2"/><rect x="268" y="230" width="26" height="5" rx="2"/><rect x="268" y="242" width="26" height="5" rx="2"/><rect x="268" y="254" width="26" height="5" rx="2"/></g>
+    <rect x="268" y="218" width="26" height="5" rx="2" fill="#1fb5e0"/>
+    <g>
+      <rect x="308" y="214" width="38" height="24" rx="3" fill="#fff" stroke="#e3e7ef"/><rect x="350" y="214" width="38" height="24" rx="3" fill="#fff" stroke="#e3e7ef"/><rect x="392" y="214" width="38" height="24" rx="3" fill="#fff" stroke="#e3e7ef"/>
+      <rect x="313" y="226" width="20" height="6" rx="2" fill="#f5b400"/><rect x="355" y="226" width="20" height="6" rx="2" fill="#1fb5e0"/><rect x="397" y="226" width="20" height="6" rx="2" fill="#6fd3a0"/>
+    </g>
+    <rect x="308" y="244" width="122" height="62" rx="3" fill="#fff" stroke="#e3e7ef"/>
+    <g fill="#1fb5e0"><rect x="318" y="282" width="10" height="18"/><rect x="334" y="272" width="10" height="28"/><rect x="350" y="262" width="10" height="38"/><rect x="366" y="276" width="10" height="24"/><rect x="382" y="256" width="10" height="44"/><rect x="398" y="266" width="10" height="34"/><rect x="414" y="252" width="10" height="48"/></g>
+    <path d="M236 324h228l-14 18H250z" fill="#3b4364"/>
+    <rect x="330" y="326" width="40" height="5" rx="2" fill="#22283b"/>
+  </g>
+
+  <!-- Impresora -->
+  <g>
+    <rect x="488" y="236" width="80" height="20" rx="3" fill="#e3e7ef"/>
+    <rect x="474" y="252" width="108" height="56" rx="8" fill="#cfd5e1"/>
+    <rect x="474" y="252" width="108" height="14" rx="6" fill="#b8c0d0"/>
+    <circle cx="566" cy="282" r="4" fill="#6fd3a0"/>
+    <rect x="490" y="296" width="76" height="30" fill="#fff"/>
+    <g fill="#cfd5e1"><rect x="498" y="304" width="48" height="3"/><rect x="498" y="312" width="36" height="3"/></g>
+  </g>
+
+  <!-- Cajas de suministros -->
+  <g>
+    <rect x="474" y="334" width="62" height="48" rx="3" fill="#f5b400"/>
+    <rect x="474" y="334" width="62" height="10" fill="#e2a200"/>
+    <rect x="484" y="354" width="30" height="8" rx="2" fill="#fff" opacity=".8"/>
+    <rect x="540" y="346" width="44" height="36" rx="3" fill="#1fb5e0"/>
+    <rect x="540" y="346" width="44" height="8" fill="#0f8db3"/>
+    <rect x="548" y="362" width="22" height="6" rx="2" fill="#fff" opacity=".8"/>
+    <!-- toner -->
+    <rect x="264" y="350" width="96" height="30" rx="6" fill="#2e3550"/>
+    <rect x="272" y="358" width="54" height="14" rx="3" fill="#161a28"/>
+    <circle cx="344" cy="365" r="7" fill="#ef5b4c"/>
+    <!-- mouse y audífonos -->
+    <ellipse cx="392" cy="368" rx="14" ry="20" fill="#cfd5e1"/>
+    <path d="M392 348v14" stroke="#8e97ad" stroke-width="2"/>
+    <path d="M418 376a22 22 0 0 1 44 0" stroke="#6fd3a0" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <rect x="412" y="368" width="14" height="16" rx="4" fill="#6fd3a0"/><rect x="454" y="368" width="14" height="16" rx="4" fill="#6fd3a0"/>
+  </g>
+</svg>
